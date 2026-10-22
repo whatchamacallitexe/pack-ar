@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <script src="https://glaxyias.github.io/JS/cdn-resilient.js"></script>
+  <meta charset="utf-8">
+  <title>Tomb of the Mask</title>
+  <link href="https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/topvaz/gfiles1@738d9cb2953428620c44ba7cdb62705b6540bb00/tomb-of-the-mask/d5fuh3d/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/topvaz/gfiles1@738d9cb2953428620c44ba7cdb62705b6540bb00/tomb-of-the-mask/d5fuh3d/totm.json", {onProgress: UnityProgress, Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+  </script>
+  <style>html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }</style>
+</head>
+<body>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 100vw; height: 100vh; padding: 0; margin: 0; border: 0; position: relative; background: rgb(35, 31, 32);"></div>
+  </div>
+</body>
+</html>
