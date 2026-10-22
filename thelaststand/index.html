@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://glaxyias.github.io/JS/cdn-resilient.js"></script>
+<meta charset="utf-8">
+<title>The Last Stand</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/74m4h4/74m4h4-Assets@5cb61b353cff0365c082c9309e82bb561c027201/Run%202/waflash/waflash-style.css" type="text/css">
+<script>
+var gameConfig = {swfUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@7afff46a98228b0fa56f1f3a823619ef4c23b8b7/the-last-stand-269.swf" }
+</script>
+<style>html,body{margin:0;height:100%;background:#000;}</style>
+</head>
+<body>
+<div id="waflashContainer">
+<canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+<div id="waflashStatus" style="display: none;">Playing...</div>
+<script type="module" crossorigin="anonymous">
+import {createWaflash} from 'https://cdn.jsdelivr.net/gh/zhit73/wafedit@badeade9f58a3987043cdcc12c863c0b2eb3de01/wasm/waflash-player.min.js';
+createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+</script>
+</div>
+</body>
+</html>

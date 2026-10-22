@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://glaxyias.github.io/JS/cdn-resilient.js"></script>
+<meta charset="utf-8">
+<title>Tasty Planet</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/7DatsonBack/3kh0-Assets@60f2f97b00ffe9566ee06c82ecaf67255931118b/Run%202/waflash/waflash-style.css" type="text/css">
+<script>
+var gameConfig = { swfUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@42710034f93536b11e84fdfa98b2814d6b02d911/tasty-planet.swf" }
+</script>
+<style>html,body{margin:0;height:100%;background:#000;}</style>
+</head>
+<body>
+<div id="waflashContainer">
+<canvas class="waflashCanvas" id="canvas" tabindex="1"></canvas>
+<div id="waflashStatus" style="display: none;">Playing...</div>
+<script type="module" crossorigin="anonymous">
+import { createWaflash } from 'https://cdn.jsdelivr.net/gh/zhit73/wafedit@183cb00916e4d250ae5bc9813864f9a70cb9986b/wasm/waflash-player.min.js';
+createWaflash(gameConfig.swfUrl, window.wafOptions || {});
+</script>
+</div>
+</body>
+</html>
