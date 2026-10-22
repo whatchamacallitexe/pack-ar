@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Root Beer Tapper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://glaxyias.github.io/JS/cdn-resilient.js"></script>
+<style>
+body { margin:0; background:#000; overflow:hidden; display:flex; justify-content:center; align-items:center; height:100vh; }
+#game { width:100%; height:100%; }
+button { padding:15px 30px; font-size:18px; background:#4CAF50; color:white; border:none; border-radius:8px; cursor:pointer; }
+</style>
+</head>
+<body>
+<div id="game" style="display:none;"></div>
+<button id="startButton">PLAY TAPPER</button>
+<script>
+document.getElementById("startButton").onclick = function() {
+  document.getElementById("game").style.display = "block";
+  this.style.display = "none";
+  window.EJS_player = "#game";
+  window.EJS_core = "coleco";
+  window.EJS_color = "#000000";
+  window.EJS_startOnLoaded = true;
+  window.EJS_pathtodata = "https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data";
+  window.EJS_biosUrl = "https://cdn.jsdelivr.net/gh/Abdess/retroarch_system@5f96368f6dbad5851cdb16a5041fefec4bdcd305/Coleco%20-%20ColecoVision/colecovision.rom";
+  window.EJS_gameUrl = "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@716ddb47a526b1803b8791f73234e9a19d15c023/Root%20Beer%20Tapper%20(USA).zip";
+  var script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js";
+  document.body.appendChild(script);
+};
+</script>
+</body>
+</html>
