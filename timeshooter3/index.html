@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://glaxyias.github.io/JS/cdn-resilient.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Time Shooter 3 SWAT</title>
+<link href="https://cdn.jsdelivr.net/gh/mistirk/google@eebffdf79a14f6e01e153d5cd4bed23c432874fb/version/time-s3/style.css" rel="stylesheet">
+<style>html, body { margin:0; padding:0; width:100%; height:100%; background:#000; overflow:hidden; }</style>
+</head>
+<body>
+<div class="unity-desktop" id="unity-container">
+<canvas id="unity-canvas"></canvas>
+</div>
+<div id="loading-cover">
+<div id="unity-loading-bar">
+<div id="unity-logo"><img src="https://cdn.jsdelivr.net/gh/mistirk/google@eebffdf79a14f6e01e153d5cd4bed23c432874fb/version/time-s3/logo.png"></div>
+<div id="unity-progress-bar-empty"><div id="unity-progress-bar-full"></div></div>
+</div>
+</div>
+<script>
+const buildUrl = "https://cdn.jsdelivr.net/gh/mistirk/google@eebffdf79a14f6e01e153d5cd4bed23c432874fb/version/time-s3";
+const loaderUrl = buildUrl + "/ts3.loader.js";
+const config = {
+  dataUrl: buildUrl + "/ts3.data",
+  frameworkUrl: buildUrl + "/ts3.framework.js",
+  codeUrl: buildUrl + "/ts3.wasm",
+  streamingAssetsUrl: "StreamingAssets",
+  companyName: "GoGoMan",
+  productName: "Time Shooter SWAT",
+  productVersion: "0.03",
+};
+const canvas = document.querySelector("#unity-canvas");
+const loadingCover = document.querySelector("#loading-cover");
+const progressBarFull = document.querySelector("#unity-progress-bar-full");
+const script = document.createElement("script");
+script.src = loaderUrl;
+script.onload = () => {
+  createUnityInstance(canvas, config, (progress) => {
+    progressBarFull.style.width = `${100 * progress}%`;
+  }).then(() => {
+    loadingCover.style.display = "none";
+  }).catch((message) => {
+    alert(message);
+  });
+};
+document.body.appendChild(script);
+</script>
+</body>
+</html>
