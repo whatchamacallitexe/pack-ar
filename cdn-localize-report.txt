@@ -1,0 +1,41 @@
+BASE OK bubbls/UGS-Assets@027a7fc4b20820dc401547a74cf4f2ee875cd3e2/table tanks -> tabletanks
+BASE REWRITE tabletanks
+BASE SKIP 181.6MB Stinkalistic/UGS@main/MISC/taisei
+FILE tapper: https://cdn.jsdelivr.net/gh/Abdess/retroarch_system@5f96368f6dbad5851cdb16a5041fefec4bdcd305/Coleco%20-%20ColecoVision/colecovision.rom -> assets/cdn/78ea75ab-colecovision.rom
+FILE tapper: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@716ddb47a526b1803b8791f73234e9a19d15c023/Root%20Beer%20Tapper%20(USA).zip -> assets/cdn/c6c9e357-Root_Beer_Tapper_USA_.zip
+FILE tapper: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE tastyplanet: https://cdn.jsdelivr.net/gh/7DatsonBack/3kh0-Assets@60f2f97b00ffe9566ee06c82ecaf67255931118b/Run%202/waflash/waflash-style.css -> assets/cdn/f8a73723-waflash-style.css
+FILE tastyplanet: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@42710034f93536b11e84fdfa98b2814d6b02d911/tasty-planet.swf -> assets/cdn/890aa3bf-tasty-planet.swf
+FILE tastyplanet: https://cdn.jsdelivr.net/gh/zhit73/wafedit@183cb00916e4d250ae5bc9813864f9a70cb9986b/wasm/waflash-player.min.js -> assets/cdn/aed266bb-waflash-player.min.js
+BASE OK genizy/google-class@HEAD/temple-run-2 -> templerun2
+BASE REWRITE templerun2
+FILE tetris: https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap -> ../_shared/1d6ed7624a20-fonts-1d6ed7624a.css
+FILE tetris: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@35728ab339fe19751152ee79e06fe3b419bd8b59/Tetris%20(USA).zip -> assets/cdn/7e9b3afc-Tetris_USA_.zip
+FILE tetris: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE tetrisattack: https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap -> ../_shared/1d6ed7624a20-fonts-1d6ed7624a.css
+FILE tetrisattack: https://cdn.jsdelivr.net/gh/bubbls/clsm64@083df42a6f197fcd23f5eed15b80faf80f5275ad/Tetris%20Attack%20(U)%20%5B!%5D.zip -> assets/cdn/b983e476-Tetris_Attack_U_.zip
+FILE tetrisattack: https://cdn.jsdelivr.net/gh/a456pur/seraph@81f551ca0aa8e3d6018d32d8ac5904ac9bc78f76/storage/emulatorjs/data/loader.js -> ../_shared/6515c3799bdb-loader.js
+FILE theclassroom: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE theclassroom: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@4ccdbea84bc5f647bb8b21c07c54edc3486a3c4f/the-classroom-11.swf -> ../_shared/6e3fcbbd8c8f-the-classroom-11.swf
+FILE theimpossiblegame: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
+FILE theimpossiblegame: https://cdn.jsdelivr.net/gh/mmtrucefacts/whitespider@64d398118cd6d83f82b111af4972f8a6d07fc167/games/flash/the-impossible-game-lite.swf -> ../_shared/1be1c225d578-the-impossible-game-lite.swf
+FILE thelaststand: https://cdn.jsdelivr.net/gh/74m4h4/74m4h4-Assets@5cb61b353cff0365c082c9309e82bb561c027201/Run%202/waflash/waflash-style.css -> assets/cdn/c7744fd0-waflash-style.css
+FILE thelaststand: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@7afff46a98228b0fa56f1f3a823619ef4c23b8b7/the-last-stand-269.swf -> assets/cdn/43e5a662-the-last-stand-269.swf
+FILE thelaststand: https://cdn.jsdelivr.net/gh/zhit73/wafedit@badeade9f58a3987043cdcc12c863c0b2eb3de01/wasm/waflash-player.min.js -> assets/cdn/bbeeb748-waflash-player.min.js
+FILE throwapotato: https://cdn.jsdelivr.net/gh/bubbls/ruffle@d575f9f1fdbbb1fd531b97bb3b921ad7ea5ae559/pocs.css -> assets/cdn/d80808e7-pocs.css
+FILE throwapotato: https://cdn.jsdelivr.net/gh/bubbls/ruffle@d575f9f1fdbbb1fd531b97bb3b921ad7ea5ae559/pocheck.js -> assets/cdn/e5fb3736-pocheck.js
+FILE throwapotato: https://cdn.jsdelivr.net/gh/bubbls/ruffle@d575f9f1fdbbb1fd531b97bb3b921ad7ea5ae559/poof.js -> assets/cdn/ebdf4956-poof.js
+FILE throwapotato: https://cdn.jsdelivr.net/gh/bubbls/ruffle@d575f9f1fdbbb1fd531b97bb3b921ad7ea5ae559/pomain.js -> assets/cdn/c1eda1e0-pomain.js
+FILE throwapotato: https://cdn.jsdelivr.net/gh/bubbls/ruffle@d575f9f1fdbbb1fd531b97bb3b921ad7ea5ae559/posw.js -> assets/cdn/afdbcee9-posw.js
+FILE timeshooter3: https://cdn.jsdelivr.net/gh/mistirk/google@eebffdf79a14f6e01e153d5cd4bed23c432874fb/version/time-s3/style.css -> assets/cdn/c0b81277-style.css
+FILE timeshooter3: https://cdn.jsdelivr.net/gh/mistirk/google@eebffdf79a14f6e01e153d5cd4bed23c432874fb/version/time-s3/logo.png -> assets/cdn/f83ac8ba-logo.png
+FILE tombofthemask: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css -> assets/cdn/843987ee-style.css
+FILE tombofthemask: https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/UnityProgress.js -> assets/cdn/1c97c589-UnityProgress.js
+FILE tombofthemask: https://cdn.jsdelivr.net/gh/topvaz/gfiles1@738d9cb2953428620c44ba7cdb62705b6540bb00/tomb-of-the-mask/d5fuh3d/UnityLoader.js -> assets/cdn/c48dc34b-UnityLoader.js
+FILE tombofthemask: https://cdn.jsdelivr.net/gh/topvaz/gfiles1@738d9cb2953428620c44ba7cdb62705b6540bb00/tomb-of-the-mask/d5fuh3d/totm.json -> assets/cdn/f0773c93-totm.json
+EMU OK genizy/emu@master cores=fceumm,snes9x
+FILE tonyhawkproskater: https://cdn.jsdelivr.net/gh/Abdess/retroarch_system@5f96368f6dbad5851cdb16a5041fefec4bdcd305/Sony%20-%20PlayStation/scph5501.bin -> assets/cdn/7e5c01d1-scph5501.bin
+FILE trafficjam3d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c0f81b71d9a45688dcdb9a7a0303ebe5c424e4f2/traffic%20jam%203d/TemplateData/style.css -> assets/cdn/767d3e1f-style.css
+FILE trafficjam3d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c0f81b71d9a45688dcdb9a7a0303ebe5c424e4f2/traffic%20jam%203d/TemplateData/UnityProgress.js -> assets/cdn/f6ff7b1c-UnityProgress.js
+FILE trafficjam3d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c0f81b71d9a45688dcdb9a7a0303ebe5c424e4f2/traffic%20jam%203d/Build/UnityLoader.js -> assets/cdn/8da51bfc-UnityLoader.js
+FILE trafficjam3d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@c0f81b71d9a45688dcdb9a7a0303ebe5c424e4f2/traffic%20jam%203d/Build/TrafficJam3D-build-4.json -> assets/cdn/ffd3b4d2-TrafficJam3D-build-4.json
